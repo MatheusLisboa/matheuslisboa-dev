@@ -48,7 +48,7 @@ export default function Contact() {
             </p>
 
             <div className="flex flex-col gap-4">
-              <a href="tel:+5582999503863" className="flex items-center gap-4 group">
+              <a href="https://w.app/matheuslisboa-dev" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-10 h-10 flex items-center justify-center border border-cyan-400/20 text-cyan-400 group-hover:border-cyan-400/60 transition-all">
                   <Phone size={14} />
                 </div>

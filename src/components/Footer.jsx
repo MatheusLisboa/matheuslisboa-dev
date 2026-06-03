@@ -16,6 +16,7 @@ export default function Footer() {
             className="text-[#3d5a73] hover:text-cyan-400 transition-colors">
             <LinkedinIcon size={14} />
           </a>
+          
         </div>
       </div>
     </footer>
