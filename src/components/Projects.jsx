@@ -54,7 +54,7 @@ const projects = [
     tags: ['TypeScript', 'CSS', 'JavaScript'],
     accent: '#e49a11',
     github: 'https://github.com/matheuslisboa/estofados-lisboa',
-    demo: 'https://estofadoslisboa.netlify.app/',
+    demo: 'https://estofados-lisboa.vercel.app/',
     num: '06',
   },
 ];
