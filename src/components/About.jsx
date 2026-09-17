@@ -70,7 +70,7 @@ export default function About() {
               e coloco em produção para negócios reais em {site.location.replace(', AL', '')}.
             </p>
             <p className="text-text-secondary leading-relaxed mb-8">
-              Escola de natação, transportadora, BPO financeiro, finanças de casal. O padrão é o mesmo:
+              Finanças de casal, BPO financeiro, treinos para personais. O padrão é o mesmo:
               entender o processo, modelar os dados e deixar o sistema simples de usar.
             </p>
 
