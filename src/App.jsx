@@ -11,8 +11,11 @@ import './index.css';
 export default function App() {
   return (
     <div className="scanline">
+      <a href="#main" className="skip-link">
+        Pular para o conteúdo
+      </a>
       <Navbar />
-      <main>
+      <main id="main">
         <Hero />
         <About />
         <Projects />

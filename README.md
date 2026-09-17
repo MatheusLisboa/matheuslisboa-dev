@@ -1,12 +1,13 @@
 # Matheus Lisboa — Portfolio
 
-Fullstack Developer portfolio built with React + Vite + Tailwind CSS.
+Fullstack Developer em Maceió. React, Node.js, TypeScript.
 
-## Tech Stack
+**Live:** [matheuslisboa-dev.vercel.app](https://matheuslisboa-dev.vercel.app/)
+
+## Stack
 - React 19 + Vite
 - Tailwind CSS v3
-- Lucide React (icons)
-- CSS animations (no heavy deps)
+- Lucide React
 
 ## Dev
 ```bash
@@ -14,7 +15,5 @@ npm install
 npm run dev
 ```
 
-## Deploy (Vercel or Netlify)
-Just connect the repo — it deploys automatically.
-- Vercel: connects and detects Vite automatically
-- Netlify: build command `npm run build`, publish dir `dist`
+## Deploy
+Vercel detecta Vite automaticamente. Netlify: `npm run build`, publish `dist`.
