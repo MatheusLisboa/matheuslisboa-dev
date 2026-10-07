@@ -1,6 +1,6 @@
 # Matheus Lisboa — Portfolio
 
-Fullstack Developer em Maceió. React, Node.js, TypeScript.
+QA Lead e desenvolvedor full-stack em Maceió. Automação de testes (Playwright, Cypress), testes de API e aplicações em React, Node.js e TypeScript.
 
 **Live:** [matheuslisboa-dev.vercel.app](https://matheuslisboa-dev.vercel.app/)
 
