@@ -7,7 +7,7 @@ import { projects } from '../data/projects';
 import { site } from '../data/site';
 
 function ProjectCard({ project, featured, inView, delay }) {
-  const { name, desc, tags, accent, github, demo, image, num } = project;
+  const { name, desc, quality, tags, accent, github, demo, image, num } = project;
 
   return (
     <article
@@ -41,9 +41,18 @@ function ProjectCard({ project, featured, inView, delay }) {
         <h3 className="font-sans font-bold text-xl text-text-primary mb-2 group-hover:text-white transition-colors">
           {name}
         </h3>
-        <p className={`text-text-secondary text-sm leading-relaxed mb-5 ${featured ? '' : 'line-clamp-3'}`}>
+        <p className={`text-text-secondary text-sm leading-relaxed mb-4 ${featured ? '' : 'line-clamp-3'}`}>
           {desc}
         </p>
+
+        {quality && (
+          <p className="font-mono text-xs leading-relaxed mb-5 pl-3 border-l-2" style={{ borderColor: accent, color: '#9fe8d4' }}>
+            <span className="uppercase tracking-widest text-[10px] block mb-1" style={{ color: accent }}>
+              Qualidade
+            </span>
+            {quality}
+          </p>
+        )}
 
         <div className="flex flex-wrap gap-2 mb-6">
           {tags.map((t) => (
@@ -91,7 +100,7 @@ export default function Projects() {
     <section id="projects" className="py-28 scroll-mt-24" ref={ref}>
       <div className="max-w-6xl mx-auto px-6">
         <div className={`relative transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <SectionHeader index="02" label="Projetos" />
+          <SectionHeader index="04" label="Projetos" />
           <a
             href={site.github}
             target="_blank"

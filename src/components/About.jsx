@@ -33,7 +33,7 @@ export default function About() {
               >
                 <img
                   src={site.photo}
-                  alt="Matheus Lisboa programando no notebook"
+                  alt="Matheus Lisboa, QA Lead e desenvolvedor"
                   width={640}
                   height={800}
                   className="w-full h-full object-cover object-top scale-105"
@@ -63,15 +63,15 @@ export default function About() {
 
           <div>
             <h2 className="font-sans font-bold text-4xl text-text-primary mb-6 leading-tight">
-              Fullstack que entrega <span className="text-cyan-400">produto</span>
+              QA que entende o <span className="text-cyan-400">código</span>
             </h2>
             <p className="text-text-secondary leading-relaxed mb-4">
-              Construo aplicações de ponta a ponta — React e Next no frontend, Node e Postgres no backend —
-              e coloco em produção para negócios reais em {site.location.replace(', AL', '')}.
+              Sou QA Lead no projeto CultBr, do Ministério da Cultura. Faço a triagem de incidentes de produção,
+              investigo por logs e APIs e mantenho a regressão automatizada com Playwright e Cypress.
             </p>
             <p className="text-text-secondary leading-relaxed mb-8">
-              Finanças de casal, BPO financeiro, treinos para personais. O padrão é o mesmo:
-              entender o processo, modelar os dados e deixar o sistema simples de usar.
+              Também construo meus próprios produtos (TypeScript, React, Node e Postgres) e escrevo os testes junto com o
+              código. Antes de QA passei 6 anos em suporte técnico, o que me ensinou a investigar rápido e priorizar por impacto.
             </p>
 
             <div className="grid grid-cols-3 gap-4 mb-10 py-6 border-y border-cyan-400/10">

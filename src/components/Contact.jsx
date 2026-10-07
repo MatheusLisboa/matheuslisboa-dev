@@ -73,7 +73,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-28 px-6 max-w-6xl mx-auto scroll-mt-24" ref={ref}>
       <div className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-        <SectionHeader index="04" label="Contato" />
+        <SectionHeader index="06" label="Contato" />
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>

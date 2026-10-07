@@ -10,11 +10,11 @@ export default function Skills() {
   return (
     <section id="skills" className="py-28 px-6 max-w-6xl mx-auto scroll-mt-24" ref={ref}>
       <div className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-        <SectionHeader index="03" label="Stack & ferramentas" />
+        <SectionHeader index="05" label="Stack & ferramentas" />
 
         <p className="text-text-secondary text-sm mb-10 max-w-2xl -mt-8">
-          O que aparece nos repositórios — não uma lista de buzzword. Frontend e APIs no dia a dia,
-          Postgres e Supabase nos produtos, Git e Vercel no deploy.
+          Ferramentas que uso no dia a dia e que aparecem nos repositórios, não uma lista de buzzword:
+          Playwright nos meus projetos, Cypress e Postman no trabalho, GitHub Actions para o CI.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

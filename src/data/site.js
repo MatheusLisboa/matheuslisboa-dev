@@ -2,10 +2,10 @@ export const site = {
   name: 'Matheus Lisboa',
   firstName: 'Matheus',
   lastName: 'Lisboa',
-  role: 'Fullstack Developer',
+  role: 'QA Lead',
   location: 'Maceió, AL',
   url: 'https://matheuslisboa-dev.vercel.app',
-  email: 'matheus.fillipe@hotmail.com',
+  email: 'dev.matheuslisboa@gmail.com',
   phone: '(82) 99950-3863',
   phoneHref: 'tel:+5582999503863',
   whatsapp: 'https://w.app/matheuslisboa-dev',
@@ -15,25 +15,28 @@ export const site = {
   linkedinLabel: 'matheuslisboa-dev',
   formspree: 'https://formspree.io/f/xbderwwr',
   photo: '/matheus.jpg',
-  availability: 'Aberto a freelance e full-time',
+  availability: 'Aberto a novas oportunidades em QA',
 };
 
 export const navLinks = [
   { label: 'Início', href: '#hero' },
   { label: 'Sobre', href: '#about' },
+  { label: 'QA', href: '#qa' },
+  { label: 'Experiência', href: '#experience' },
   { label: 'Projetos', href: '#projects' },
-  { label: 'Skills', href: '#skills' },
+  { label: 'Stack', href: '#skills' },
   { label: 'Contato', href: '#contact' },
 ];
 
 export const roles = [
-  'Fullstack Developer',
-  'React, Node & TypeScript',
-  'Produtos em produção',
+  'QA Lead',
+  'Automação com Playwright e Cypress',
+  'Testes de API e regressão',
+  'Qualidade com visão de dev',
 ];
 
 export const stats = [
-  { n: '20+', label: 'Produtos' },
-  { n: 'Fullstack', label: 'React + Node' },
-  { n: 'AL', label: 'Maceió / remote' },
+  { n: '50', label: 'Bugs triados/sem' },
+  { n: '~20', label: 'Fluxos em regressão' },
+  { n: '83', label: 'Testes no ForceQA' },
 ];
