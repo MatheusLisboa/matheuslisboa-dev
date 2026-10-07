@@ -3,7 +3,6 @@ export const site = {
   firstName: 'Matheus',
   lastName: 'Lisboa',
   role: 'QA Lead',
-  location: 'Maceió, AL',
   url: 'https://matheuslisboa-dev.vercel.app',
   email: 'dev.matheuslisboa@gmail.com',
   phone: '(82) 99950-3863',

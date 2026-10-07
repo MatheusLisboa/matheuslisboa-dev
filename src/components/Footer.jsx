@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t border-cyan-400/10 py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="font-mono text-xs text-text-muted">
-          {site.name} <span className="text-cyan-400/40">©</span> {year} — {site.location}
+          {site.name} <span className="text-cyan-400/40">©</span> {year}
         </p>
         <div className="flex items-center gap-4">
           <a

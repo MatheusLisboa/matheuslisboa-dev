@@ -1,6 +1,6 @@
 # Matheus Lisboa — Portfolio
 
-QA Lead em Maceió. Automação de testes (Playwright, Cypress), testes de API e desenvolvimento em React, Node.js e TypeScript.
+QA Lead. Automação de testes (Playwright, Cypress), testes de API e desenvolvimento em React, Node.js e TypeScript.
 
 **Live:** [matheuslisboa-dev.vercel.app](https://matheuslisboa-dev.vercel.app/)
 

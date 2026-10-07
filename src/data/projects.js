@@ -13,17 +13,6 @@ export const projects = [
   },
   {
     num: '02',
-    name: 'Vértice BPO',
-    desc: 'ERP financeiro multitenant para BPO: acesso por empresa, fluxo de primeiro login e relatórios.',
-    quality: 'E2E em Playwright para autenticação e fluxos logados, mais testes unitários das regras de negócio.',
-    tags: ['Playwright', 'Next.js', 'Supabase', 'Recharts'],
-    accent: '#3b82f6',
-    github: 'https://github.com/MatheusLisboa/app-verticebpo',
-    demo: 'https://app-verticebpo-ivory.vercel.app',
-    image: '/projects/vertice.jpg',
-  },
-  {
-    num: '03',
     name: 'Melza',
     desc: 'Finanças para casal e família: workspaces compartilhados, faturas no ciclo real do cartão, acerto entre pessoas e chat com IA que consulta os dados, sem inventar lançamento.',
     quality: 'Testes unitários (Vitest) em regras de fatura, parcelas e rate limit, com CI no GitHub Actions.',
@@ -34,7 +23,7 @@ export const projects = [
     image: '/projects/melza.jpg',
   },
   {
-    num: '04',
+    num: '03',
     name: 'AxxosFit',
     desc: 'Plataforma para personais: alunos, treinos, analytics e pagamentos, com IA para montar treino e checkout com Mercado Pago.',
     quality: 'Testes E2E em Playwright para fluxos do aluno (nutrição, consentimento, PWA) e CI no GitHub Actions.',
@@ -43,16 +32,5 @@ export const projects = [
     github: 'https://github.com/MatheusLisboa/AxosFit-App',
     demo: 'https://axos-fit.vercel.app',
     image: '/projects/axosfit.jpg',
-  },
-  {
-    num: '05',
-    name: 'Nestly',
-    desc: 'House OS multi-tenant para a casa em família: autenticação, workspaces e dados em Postgres com Drizzle.',
-    quality: 'Smoke E2E em Playwright e testes unitários (Vitest) de permissões e utilitários.',
-    tags: ['Playwright', 'Vitest', 'Next.js', 'PostgreSQL'],
-    accent: '#059669',
-    github: 'https://github.com/MatheusLisboa/app-nestly',
-    demo: 'https://app-nestly.vercel.app',
-    image: '/projects/nestly.jpg',
   },
 ];

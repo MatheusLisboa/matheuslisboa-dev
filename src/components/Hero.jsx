@@ -79,7 +79,7 @@ export default function Hero() {
         </h1>
 
         <p className="font-mono text-sm sm:text-lg md:text-xl text-text-secondary mb-3 max-w-xl mx-auto leading-relaxed">
-          QA Lead em Maceió. Automação de testes, qualidade em produção e visão de quem também escreve código.
+          QA Lead. Automação de testes, qualidade em produção e visão de quem também escreve código.
         </p>
 
         <div className="font-mono text-sm sm:text-base md:text-lg text-text-secondary mb-8 h-8 flex items-center justify-center gap-1" aria-live="polite">
